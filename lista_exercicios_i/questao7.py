@@ -6,7 +6,6 @@ def fibonacci(n):
         fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
     return fib_sequence
 
-
 valor_limite = int(
     input("Digite um valor limite para a sequência de Fibonacci: "))
 
